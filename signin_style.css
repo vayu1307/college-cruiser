@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  font-family: poppins, sans-serif;
+}
+
+.container {
+  border: none;
+  padding-top: 20px;
+  border-radius: 15px;
+  margin-left: 50%;
+  margin-top: -35%;
+  width: 40%;
+  background-color: #b3caff;
+}
+
+.container:hover {
+  transform: scale(0.99);
+  transition: all 800ms ease;
+}
+
+.container .mt-1 {
+  font-family: poppins, sans-serif;
+  margin-left: 41%;
+  margin-top: -5px;
+  height: 50px;
+  font-size: x-large;
+  color: #0e7bf9;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+.container .mail {
+  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.form-label h3 {
+  color: #fff;
+  font-family: poppins, sans-serif;
+  font-size: 80%;
+  margin-right: 50%;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.form-label #mail {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.container .password {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+/* .checkbox{
+  margin-left: 2%;
+} */
+
+.container h5 {
+  margin-top: -4%;
+  margin-left: 6%;
+  font-family: poppins, sans-serif;
+}
+
+p {
+  margin-top: 6px;
+  margin-left: 45%;
+  margin-bottom: 8%;
+  font-size: small;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  margin-left: 3px;
+}
+
+.container .form-label {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #0e7bf9;
+}
+
+.container .form-control {
+  font-family: poppins, sans-serif;
+  margin-right: 10%;
+  width: 80%;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+img {
+  height: 500px;
+  margin: 70px 0px 0px 70px;
+}
+
+.password img {
+  cursor: pointer;
+  margin: 0;
+  margin-left: 269px;
+  margin-top: -100px;
+  padding-bottom: 16px;
+  background-color: #2068bb;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#eci {
+  margin-left: 77%;
+  margin-bottom: 21px;
+  width: 4%;
+  height: 4%;
+}
+
+#eci:active {
+  transform: scale(1.1);
+}
+
+.mt-5 {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.mt-5 button {
+  width: 70%;
+  margin-left: 13%;
+  margin-bottom: 5%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.mt-5 button:first-child {
+  color: #fff;
+  font-weight: bold;
+  background: #407bff;
+  padding: 20px;
+  margin-top: -10px;
+}
+
+.mt-5 button:first-child:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+  background: #2068bb;
+  color: #fff;
+}
+
+.mt-5 button:last-child:active {
+  transform: scale(1.2);
+}
+
+.fpass {
+  padding: 10px;
+  margin-top: -45px;
+}
+
+.fpass a {
+  font-weight: bold;
+  margin-left: 60%;
+  padding-bottom: 15px;
+}

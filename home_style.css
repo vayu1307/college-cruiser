@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+.content {
+  background-color: #f7e2a3;
+}
+
+.img {
+  background: url("_gif/Home_image2.png");
+  filter: blur(1px);
+  /*to blur the image*/
+  -webkit-filter: blur(0px);
+  /*to blur the image*/
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 10px;
+}
+
+.img::before {
+  content: " ";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.center {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.center .sub_title {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.sub_title:hover {
+  transform: scale(0.99);
+  transition: all 500ms ease-in-out;
+}
+
+marquee {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet   MS",
+    sans-serif;
+  font-style: italic;
+  padding: 20px;
+  transition: all 500ms ease;
+  font-size: 190%;
+}
+
+marquee:hover {
+  font-size: 200%;
+}
+
+.para1 {
+  font-size: 17px;
+  margin-left: 50%;
+  width: 50%;
+  line-break: auto;
+  word-spacing: 5px;
+  background-color: #ffda6b;
+  color: #fff;
+  border-radius: 3%;
+  padding: 2%;
+}
+
+.para1:hover {
+  background-color: #ffd148;
+  transform: scale(0.99);
+}
+
+.para1 .content {
+  background-position: left;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
+  background-color: #ffeaac;
+  border-radius: 20px;
+}
+
+.para2 {
+  font-size: 17px;
+  margin-left: 35px;
+  /* margin-top: 5px; */
+  width: 97%;
+  line-break: auto;
+  word-spacing: 5px;
+  background-color: #ffda6b;
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.para2:hover {
+  background-color: #ffd148;
+  transform: scale(0.99);
+}
+
+.para2 .content {
+  background-position: left;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
+  background-color: #e7c560;
+  border-radius: 20px;
+}
+
+img {
+  width: 50%;
+  border-radius: 20px;
+  margin-bottom: -34.4%;
+}
+
+.busstop:hover {
+  transform: scale(0.99);
+}
+
+img.fdb {
+  width: 50%;
+  border-radius: 20px;
+  margin-bottom: -32.4%;
+}
+
+img.fdb:hover {
+  background-color: #ffd148;
+  transform: scale(0.99);
+}
+
+.feedback:hover {
+  transform: scale(0.99);
+}
+
+/* Read More link styled as button */
+#LM {
+  display: inline-block;
+  /* IMPORTANT for anchor */
+  text-align: center;
+  line-height: 50px;
+  /* vertically center text */
+  text-decoration: none;
+  /* remove underline */
+
+  margin-left: 45%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 50px;
+  width: 170px;
+
+  font-size: 22px;
+  font-weight: 500;
+
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+  color: #fff;
+  background-color: #202020;
+
+  transition: all 0.5s ease;
+}
+
+/* Hover effect (same as before) */
+#LM:hover {
+  background-color: #ffd148;
+  color: #fff;
+}
+
+/* Click effect */
+#LM:active {
+  transform: scale(1.1);
+}
+
+.fimg {
+  height: 550px;
+  background-color: #ffda6b;
+  padding: 2%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.feedback #fb {
+  background-color: #ffe597;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  margin-left: 56%;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  height: 35px;
+  width: 42%;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+h4 {
+  margin-top: 0%;
+  margin-left: 73%;
+  font-size: 20px;
+}
+
+.feedback #fbt {
+  background-color: #ffe597;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  resize: none;
+  margin-left: 56%;
+  margin-top: 15px;
+  font-size: 15px;
+  height: 200px;
+  width: 42%;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+#subbtn {
+  background-color: #f0ca59;
+  color: #fff;
+  margin-left: 56%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 42%;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+#subbtn:hover {
+  background-color: #303030;
+}

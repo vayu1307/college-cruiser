@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* body{
+    background-image: url("_gif/Reset_password.png");
+    background-size: 500px;
+    background-repeat: no-repeat;
+} */
+
+nav {
+    position: sticky;
+    background-color: #1b1b1b;
+    width: 99.7%;
+    padding: 10px 2px;
+    z-index: 12;
+}
+
+nav .menu {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.menu .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.logo img {
+    height: 85px;
+    width: 115px;
+    margin: 0;
+    margin-bottom: -22px;
+    margin-top: -10px;
+    margin-left: -22px;
+}
+
+.menu ul {
+    display: inline-flex;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 7px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.4 ease;
+}
+
+.menu ul li a:hover {
+    background: #fff;
+    color: black;
+}
+
+.main {
+    margin-left: 48%;
+    margin-top: -30%;
+    margin-right: 80px;
+    height: 350px;
+    padding: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #b3caff;
+    border-radius: 20px;
+}
+
+.imguppass {
+    height: 500px;
+    margin: 60px 0px 0px 60px;
+}
+
+h1 {
+    margin-left: 15%;
+    color: #6f809f;
+    padding-bottom: 45px;
+}
+
+.form-control {
+    margin-left: 12%;
+    width: 74%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.main img {
+    cursor: pointer;
+    margin: 0;
+    margin-right: -50px;
+    margin-top: -50%;
+    /* padding-bottom: -16px; */
+    background-color: #2068bb;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+#eci1 {
+    /* margin: 0; */
+    margin-left: 90%;
+    margin-bottom: 13px;
+    width: 20px;
+    height: 20px;
+}
+
+#eci1:active {
+    transform: scale(1.1);
+}
+
+#eci2 {
+    margin-left: 90%;
+    margin-bottom: 13px;
+    width: 20px;
+    height: 20px;
+}
+
+#eci2:active {
+    transform: scale(1.1);
+}
+
+#eci3 {
+    margin-left: 90%;
+    margin-bottom: 13px;
+    width: 20px;
+    height: 20px;
+}
+
+#eci3:active {
+    transform: scale(1.1);
+}
+
+.main .btn {
+    cursor: pointer;
+    width: 50%;
+    margin-left: 28%;
+    margin-top: 10px;
+    height: 40px;
+    background-color: #407bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.main button:first-child {
+    color: #fff;
+    font-weight: bold;
+    background: #407bff;
+    padding: 20px;
+    margin-top: -10px;
+}
+
+.main button:first-child:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+    background: #2068bb;
+    color: #fff;
+}
+
+.main button:last-child:active {
+    transform: scale(1.2);
+}
